@@ -32,6 +32,7 @@ delimiter = '.'
 '''
 
 # Exercise 2.4
+print "Exercise 2.4.1"
 '''
 1. The volume of a sphere with radius r is (4/3)pir^3. What is the volume of a 
 sphere with radius 5? Hint: 392.7 is wrong!
@@ -40,7 +41,9 @@ import math
 r = 5
 volume = (4.0 / 3.0) * math.pi * (r ** 3)
 print "The volume of the sphere in Exercise 2.4 is: %s" %volume
+print '' #break between exercises
 
+print "Exercise 2.4.2"
 '''
 2. Suppose the cover price of a book is $24.95, but bookstores get a 40% 'discount. 
 Shipping costs $3 for the first copy and 75 cents for each additional copy. What is 
@@ -63,12 +66,15 @@ def totalPrice ():
 	return bookPrice(pricePerBook, discount, copies) + shippingCost(copies)
 
 print "The cost of %s books with shipping is $%s." %(copies, totalPrice())
+print '' #break between exercises
 
+print "Exercise 2.4.3"
 '''
 3. If I leave my house at 6:52 am and run 1 mile at an easy pace (8:15 per mile), 
 then 3 miles at tempo (7:12 per mile) and 1 mile at easy pace again, what time do 
 I get home for breakfast?
 '''
 import datetime #Not sure how to add non-base 10 numbers with python. Import datetime?
+				#Or compute numbers out of 60?
 
 
