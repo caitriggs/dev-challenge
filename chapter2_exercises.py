@@ -74,8 +74,6 @@ print "Exercise 2.4.3"
 then 3 miles at tempo (7:12 per mile) and 1 mile at easy pace again, what time do 
 I get home for breakfast?
 '''
-import datetime #Not sure how to add non-base 10 numbers with python. Import datetime?
-				#Or compute numbers out of 60?
 startHour = 6 + (52 / 60.0)
 slowPace = (8 + (15 / 60.0)) / 60.0
 fastPace = (7 + (12 / 60.0)) / 60.0
