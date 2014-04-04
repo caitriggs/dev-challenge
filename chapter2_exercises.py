@@ -76,5 +76,15 @@ I get home for breakfast?
 '''
 import datetime #Not sure how to add non-base 10 numbers with python. Import datetime?
 				#Or compute numbers out of 60?
+startHour = 6 + (52 / 60.0)
+slowPace = (8 + (15 / 60.0)) / 60.0
+fastPace = (7 + (12 / 60.0)) / 60.0
+runTime = (slowPace * 2) + (fastPace * 3)
+
+breakfastTime = startHour + runTime
+breakfastHour = int(breakfastTime)
+breakfastMin = int((breakfastTime - breakfastHour) * 60)
+
+print "I'll be home for breakfast at %s:%sam" %(breakfastHour, breakfastMin)
 
 
